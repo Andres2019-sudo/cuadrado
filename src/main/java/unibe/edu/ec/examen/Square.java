@@ -15,5 +15,9 @@ public class Square {
 	public void setCentimeter(int centimeter) {
 		this.centimeter = centimeter;
 	}
-
+	public int calculateArea() {
+		int area= centimeter*centimeter;
+		return area;
+	}
+	
 }
