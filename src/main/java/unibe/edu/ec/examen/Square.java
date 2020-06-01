@@ -10,11 +10,10 @@ public class Square {
 
 	public int getCentimeter() {
 		return centimeter;
-	}
+	} 
 
 	public void setCentimeter(int centimeter) {
 		this.centimeter = centimeter;
 	}
 
-	
 }
