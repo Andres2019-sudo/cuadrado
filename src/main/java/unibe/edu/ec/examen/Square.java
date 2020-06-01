@@ -19,5 +19,8 @@ public class Square {
 		int area= centimeter*centimeter;
 		return area;
 	}
-	
+	public int calculatePerimeter() {
+		int perimeter= centimeter*4;
+		return perimeter;
+	}
 }

@@ -17,5 +17,8 @@ public class SquareTest {
 	public void testcalculateArea() {
 		assertEquals(25, square.calculateArea(), 0.10);
 	}
-
+	@Test
+	public void testcalculatePerimeter() {
+		assertEquals(20, square.calculatePerimeter(), 0.10);
+	}
 }
